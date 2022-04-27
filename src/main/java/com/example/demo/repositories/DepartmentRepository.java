@@ -43,4 +43,15 @@ public class DepartmentRepository implements IRepository<Department>{
     public boolean create(Department entity) {
         return false;
     }
+
+    @Override
+    public boolean update(Department entity) {
+        return false;
+    }
+
+    @Override
+    public boolean deleteById(int id) {
+        return false;
+    }
+
 }
